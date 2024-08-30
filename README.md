@@ -1,2 +1,2 @@
 ﻿# TrainingJs
-https://jojolala1.github.io/TrainingJ
+https://jojolala1.github.io/TrainingJs
