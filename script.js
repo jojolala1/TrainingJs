@@ -212,6 +212,9 @@ const checkWin = () => {
             if(caseWin.firstChild){
                 //et si la suite de la comosition a le meme enfant (le joueur en question donc soit : x x x sit : o o o)
             if(arrWin[0].textContent === arrWin[1].textContent && arrWin[1].textContent === arrWin[2].textContent ){
+                for(let i= 0; i<3; i++){
+                    arrWin[i].firstChild.setAttribute('class','winColor')
+                }
                 //alors on design le joueur gagnant en attrapant l'enfant responsable de la victoire (si c'etait x x x alors cest le joueur x qui a gagné)
                  winnerPlayer = caseWin.textContent
                  //deffinition du message gagnant avec le nom du gagnant
