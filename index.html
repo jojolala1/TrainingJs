@@ -9,15 +9,43 @@
     <link rel="stylesheet" href="style.css">
     <script src="/script.js" defer></script>
 </head>
+
 <body>
-    <h1>ToDo List</h1>
-    <form action="#">
-        <div class="d-flex">
+    <h1 class="text-center">ToDo List</h1>
+    <form action="" id="form">
+        <div class="d-flex w-50 divCenter">
             <input class="form-control" id="input" type="text">
             <button class="btn btn-primary" id="btnClick" action="submit">add</button>
         </div>
 
     </form>
-    <ul id="tasks"></ul>
+    <div class="d-flex w-100">
+        <div class="col-6 m-2">
+            <p class="text-center fw-bold">A faire</p>
+        <ul id="tasksTodo" class="ul  p-0"></ul>
+        </div>
+        <div class="col-6 m-2">
+            <p class="text-center fw-bold">Fait</p>
+            <ul id="tasksDone"  class="ul m-2 p-0"></ul>
+        </div>
+        
+    </div>
+
+
+
+    <div id="gameContent" class="tiktaktoeContent d-flex flex-wrap">
+        <div id="b1" class="col-4 border "></div>
+        <div id="b2" class="col-4 border"></div>
+        <div id="b3" class="col-4 border"></div>
+        <div id="b4" class="col-4 border"></div>
+        <div id="b5" class="col-4 border"></div>
+        <div id="b6" class="col-4 border"></div>
+        <div id="b7" class="col-4 border"></div>
+        <div id="b8" class="col-4 border"></div>
+        <div id="b9" class="col-4 border"></div>
+    </div>
+    <p> turn of player <span id="turnPlayer"></span></p>
+    <button id="resetButton" class="btn btn-primary">reset</button>
+   <p id="winner"></p>
 </body>
 </html>
