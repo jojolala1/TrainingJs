@@ -79,7 +79,8 @@ body{
     }
     .p{
         font-size: 15vh;
-        display: flex;
-        margin: 0;
+    }
+    .winColor{
+        font-size: 15vh;
     }
   }
