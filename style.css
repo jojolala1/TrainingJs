@@ -7,6 +7,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgb(172,98,222);
+background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba(253,29,29,0.23201856148491884) 46%, rgba(252,176,69,0.25522041763341063) 100%);
 }
 
 .li{
@@ -16,6 +18,7 @@ body{
     justify-content: space-between;
     border-radius: 10px;
     margin: 10px;
+    background: #fff;
 }
 
 .ul{
@@ -40,6 +43,7 @@ body{
 .tiktaktoeContent{
     width: 75vw;
     height: 75vw;
+    background-color: #fff;
 }
 
 .tiktaktoeContent > div {
@@ -64,6 +68,11 @@ body{
     display: flex;
     margin: 0;
     color: red;
+}
+
+.todoContent{
+    border: solid white 4px;
+    border-radius: 20px;
 }
 
 @media screen and (min-width: 762px) {

@@ -11,25 +11,28 @@
 </head>
 
 <body>
-    <h1 class="text-center">ToDo List</h1>
-    <form action="" id="form">
-        <div class="d-flex w-50 divCenter">
-            <input class="form-control" id="input" type="text">
-            <button class="btn btn-primary" id="btnClick" action="submit">add</button>
+    <div class="todoContent p-5 m-5">
+        <h1 class="text-center">ToDo List</h1>
+        <form action="" id="form">
+            <div class="d-flex w-50 divCenter">
+                <input class="form-control" id="input" type="text">
+                <button class="btn btn-primary" id="btnClick" action="submit">add</button>
+            </div>
+    
+        </form>
+        <div class="d-flex w-100 flex-wrap">
+            <div class="col-12 col-lg-6 ">
+                <p class="text-center fw-bold">A faire</p>
+            <ul id="tasksTodo" class="ul  p-0"></ul>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p class="text-center fw-bold">Fait</p>
+                <ul id="tasksDone"  class="ul   p-0"></ul>
+            </div>
+            
         </div>
-
-    </form>
-    <div class="d-flex w-100 flex-wrap">
-        <div class="col-12 col-lg-6 ">
-            <p class="text-center fw-bold">A faire</p>
-        <ul id="tasksTodo" class="ul  p-0"></ul>
-        </div>
-        <div class="col-12 col-lg-6">
-            <p class="text-center fw-bold">Fait</p>
-            <ul id="tasksDone"  class="ul   p-0"></ul>
-        </div>
-        
     </div>
+   
 
 
 
@@ -44,7 +47,7 @@
         <div id="b8" class="col-4 border"></div>
         <div id="b9" class="col-4 border"></div>
     </div>
-    <p> turn of player <span id="turnPlayer"></span></p>
+    <p class="h5 fw-bolder my-4"> turn of player <span id="turnPlayer"></span></p>
     <button id="resetButton" class="btn btn-primary">reset</button>
    <p class="h3" id="winner"></p>
 </body>
