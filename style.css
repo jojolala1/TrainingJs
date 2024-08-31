@@ -11,6 +11,10 @@ body{
 background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba(253,29,29,0.23201856148491884) 46%, rgba(252,176,69,0.25522041763341063) 100%);
 }
 
+.BAS{
+    border-radius: 0 0 20px 20px;
+}
+
 .li{
     width: 80%;
     display: flex;
@@ -73,7 +77,6 @@ background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba
 .todoContent{
     border: solid white 4px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 50%);
 ;
 
 
