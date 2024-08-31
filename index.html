@@ -11,7 +11,7 @@
 </head>
 
 <body class="p-3">
-    <h1 class="text-center">Bac à sable</h1>
+    <h1 class="text-center text-decoration-underline">Bac à sable</h1>
 
     <div class="todoContent p-5 m-5 w-100">
         <h2 class="text-center">ToDo List</h2>
@@ -24,11 +24,11 @@
         </form>
         <div class="d-flex w-100 flex-wrap">
             <div class="col-12 col-lg-6 ">
-                <p class="text-center fw-bold">A faire</p>
+                <p class="text-center fw-bold h5">A faire:</p>
             <ul id="tasksTodo" class="ul  p-0"></ul>
             </div>
             <div class="col-12 col-lg-6">
-                <p class="text-center fw-bold">Fait</p>
+                <p class="text-center fw-bold h5">Fait:</p>
                 <ul id="tasksDone"  class="ul   p-0"></ul>
             </div>
             
@@ -37,7 +37,7 @@
    
 
     <div class="todoContent p-5 m-5 w-100 d-flex flex-column align-items-center">
-        <h2 class="text-center"></h2class>Tik tak toe</h2>
+        <h2 class="text-center my-3"></h2class>Tik tak toe</h2>
 
     <div id="gameContent" class="tiktaktoeContent d-flex flex-wrap">
         <div id="b1" class="col-4 border "></div>
@@ -50,8 +50,9 @@
         <div id="b8" class="col-4 border"></div>
         <div id="b9" class="col-4 border"></div>
     </div>
-    <p class="h5 fw-bolder my-4"> turn of player <span id="turnPlayer"></span></p>
+    <p class="h2 text-success my-4" id="winner"></p>
+
+    <p class="h5 fw-bolder mb-4"> turn of player <span id="turnPlayer"></span></p>
     <button id="resetButton" class="btn btn-primary">reset</button>
-   <p class="h3" id="winner"></p>
 </body>
 </html>

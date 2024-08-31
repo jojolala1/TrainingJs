@@ -2,7 +2,7 @@ html{
     overflow-x: hidden;
 }
 body{
-
+    color: #555555;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -73,6 +73,10 @@ background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba
 .todoContent{
     border: solid white 4px;
     border-radius: 20px;
+    background: rgba(255, 255, 255, 50%);
+;
+
+
 }
 
 @media screen and (min-width: 762px) {

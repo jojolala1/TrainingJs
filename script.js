@@ -218,7 +218,7 @@ const checkWin = () => {
                 //alors on design le joueur gagnant en attrapant l'enfant responsable de la victoire (si c'etait x x x alors cest le joueur x qui a gagné)
                  winnerPlayer = caseWin.textContent
                  //deffinition du message gagnant avec le nom du gagnant
-                 winner.textContent = `le gangnant est ${winnerPlayer}`
+                 winner.textContent = `le gangnant est ${winnerPlayer} !!`
             }
         }
     }
