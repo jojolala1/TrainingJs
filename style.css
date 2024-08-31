@@ -16,7 +16,7 @@ background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba
 }
 
 .li{
-    width: 80%;
+    max-width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,6 +27,9 @@ background: linear-gradient(90deg, rgba(172,98,222,0.22737819025522044) 0%, rgba
 
 .ul{
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .checkbox{
